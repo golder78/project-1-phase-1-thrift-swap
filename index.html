@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THRIFT SWAP</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <h1>T swap</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Contact us</a>
+        <a href="#">Browse Inspirations</a>
+        <a href="#">Help</a>
+    </nav>
+    </div>
+    <form id="search-bar" action="#" method="POST">
+        <label for="search-input">Search here:</label>
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Search for items..."
+          oninput="filterItems()"
+        />
+    </form>
+    
+    <div class="container">
+        <section class="featured">
+            <div class="item" id="item1">
+                <img src="https://i.pinimg.com/control/474x/bb/cf/b1/bbcfb174ed9297f73f5f3ec9452da148.jpg" alt="t-shirt">
+                <h2>Aesthetic t-shirts</h2>
+                <p>size: Large | Condition: used</p>
+                <button click="swapItem('item1')">swap</button>
+                <button click="buyItem('item 1')">Buy (ksh200)</button>
+                <p class="status" id="status-item1">Available for swap /Buy</p>
+            
+    </div>
+
+
+    <div class="item" id="item2">
+        <img src="https://i.pinimg.com/236x/a3/5f/6a/a35f6a44b2914d87628e952cd606e5b0.jpg" alt="stylish jorts">
+        <h2>Jorts</h2>
+        <p>Size:waist 32cm  |Condition:New</p>
+        <button click="swapitem('item2')">swap</button>
+        <button click="Buyitem('item 2')">Buy (ksh 1000)</button>
+        <p class="status" id="status-item2">Available for swap /Buy</p>
+    </div>
+
+
+    <div class="item" id="item3">
+        <img src="https://i.pinimg.com/236x/fc/20/be/fc20be4379582eb0cfffa9bb8373920c.jpg" alt="full fit">
+        <h2>full outfit</h2>
+        <p>Size:All sizes available | Condition:New </p>
+        <button click="swapitem('item3')">swap</button>
+        <button click="Buyitem('item 3')">Buy (ksh2500)</button>
+        <p class="status" id="status-item3">Available for swap /Buy</p>
+        </div>
+        </section>
+    </div>
+    <main>
+        <section class="featured">
+            <h2>Featured Inspirations</h2>
+            <div class="inspo-container"id="output"></div>
+        </section>
+
+        <section class="add-inspo">
+            <h2>Add New Inspiration</h2>
+            <form id="inspo-form">
+                <input type="text" placeholder="Product Name" required>
+                <input type="text" placeholder="Description" required>
+                <input type="url" placeholder="Image URL" required>
+                <button type="submit">Add Inspiration</button>
+            </form>
+        </section>
+    </main>
+     
+    <footer>
+        <p>@copyright; 2024 Thrift swap. All Rights Reserved.</p>
+    </footer>
+        
+</body>
+</html>
