@@ -2,7 +2,7 @@
 let items = [];
 
 // Fetch items from the external JSON file
-fetch('http://localhost:3000/items')
+fetch('https://project-1-phase-1-thrift-swap-3.onrender.com/items')
     .then(response => response.json())
     .then(data => {
         items = data;
@@ -61,7 +61,7 @@ function deleteItem(id) {
     items = items.filter(item => item.id !== id);
 
     // Remove the item from the JSON server
-    fetch(`http://localhost:3000/items/${id}`, {
+    fetch(`https://project-1-phase-1-thrift-swap-3.onrender.com/items/${id}`, {
         method: 'DELETE'
     })
     .then(response => {
