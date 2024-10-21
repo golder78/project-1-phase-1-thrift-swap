@@ -1,5 +1,5 @@
 # THRIFT SWAP
-#### The app is my Portfolio, 21/10/2024
+#### The app is my T SWAP, 21/10/2024
 #### **By George Golder**
 ## Description
 https://docs.google.com/presentation/d/1Tcc_uel_k8iEnHXuX6GHYXVXDw20SCUFOtglv7p_Zio/edit?usp=sharing
